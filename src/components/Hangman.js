@@ -39,7 +39,7 @@ import step6 from './images/6.jpg'
   }
 
   generateButtons(){
-    return "abcdefghjklmnopqrstuvwxyz".split("").map(letter=>(
+    return "abcdefgihjklmnopqrstuvwxyz".split("").map(letter=>(
       <button 
       className='btn btn-lg btn-primary m-2'
       key={letter}
